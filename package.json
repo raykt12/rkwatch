@@ -1,16 +1,13 @@
 {
-  "name": "rk",
+  "name": "my-watch-together-app",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "dev": "vercel dev",
+      "build": "echo \"No build step\"",
+      "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^4.21.1",
-    "socket.io": "^4.8.0"
+      "socket.io": "^4.0.0"
   }
 }
